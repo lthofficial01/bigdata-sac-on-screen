@@ -1,0 +1,49 @@
+# Raw data (too large for Git)
+data/raw/
+data/processed/
+data/processed_csv/
+
+# Generated result exports
+/age_preference_weights.csv
+/age_preference_weights_excel.csv
+/genre_top_regions.csv
+/genre_top_regions_excel.csv
+/region_genre_recommendations.csv
+/region_genre_recommendations_excel.csv
+
+# Keep sample data only
+!data/sample/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+*.env
